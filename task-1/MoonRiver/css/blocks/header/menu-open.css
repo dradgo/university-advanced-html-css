@@ -1,0 +1,129 @@
+#menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease 1s, visibility 0.5s ease 1s;
+}
+
+.menu-active #menu {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 1s;
+}
+
+
+
+.menu-open__wrap {
+    position: absolute;
+    width: 100%;
+    background: #2F2F2F;
+    padding: 37.5px 0;
+    left: 0;
+    z-index: -1;
+}
+
+.menu-open__list {
+    padding-top: 27px;
+    margin-bottom: 97px;
+}
+
+.menu-open__item {
+    color: #fff;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    display: inline-block;
+    position: relative;
+}
+
+.menu-open__item::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1.8px;
+    width: 0;
+    background: #fff;
+    bottom: -27px;
+    left: 0;
+    border-radius: 12px;
+    transition: width 0.3s ease;
+}
+
+.menu-open__item:hover::after {
+    width: 100%;
+}
+
+.menu-open__item--active::after {
+    width: 100%;
+    transition: none;
+}
+
+
+.menu-open__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-open__img-wrap {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.menu-open__img {
+    max-height: 275px;
+    border-radius: 2px;
+    object-position: 50% 54%;
+    object-fit:cover;
+    transition: transform 1s ease;
+}
+
+.menu-open__img-wrap:hover .menu-open__img {
+    transform: scale(1.1);
+}
+
+.menu-open__filter {
+    position: absolute;
+    border-radius: 2px;
+    background-color: #27272780;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-open__text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    column-gap: 23px;
+}
+
+.menu-open__text-wrap > svg {
+    margin-top: 4px;
+}
+
+.menu-open__text.futuraLight {
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.06em;
+}
+
+.menu-open__text.forumRegSecondaryTitle {
+    text-align: center;
+    color: #fff;
+}
+
+.menu-open__footer {
+    display: flex;
+    column-gap: 85px;
+}
+
+.menu-open__info {
+    flex: 1;
+}

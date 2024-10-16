@@ -1,0 +1,17 @@
+.menu-list__item {
+    display: inline-block;
+    font-family: "Fira-Sans SemiBold", serif;
+    color: #fff;
+}
+
+.menu-list__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu-list__item > svg {
+    margin-bottom: 1px;
+}
+
+.menu-list__link:not(:last-child) {
+    margin-right: 20px;
+}

@@ -1,0 +1,53 @@
+.brief-announcements {
+    padding-bottom: 150px;
+}
+
+.brief-announcements__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.brief-announcements__list, .brief-announcements__item, .brief-announcements__date {
+    display: flex;
+    align-items: center;
+}
+
+.brief-announcements__list {
+    column-gap: 24px;
+}
+
+.brief-announcements__item {
+    max-width: 306px;
+    width: 100%;
+}
+
+.brief-announcements__date {
+    background: #05B093;
+    border-radius: 12px;
+    width: 100px;
+    height: 98px;
+
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 27px;
+}
+
+.brief-announcements__day, .brief-announcements__month {
+    font-family: "EBGaramond Bold", serif;
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.brief-announcements__month {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.brief-announcements__text {
+    font-family: "Fira-Sans SemiBold", serif;
+    font-size: 14px;
+    line-height: 20px;
+}

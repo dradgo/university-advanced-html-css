@@ -1,0 +1,46 @@
+.hamburger {
+  width: 40px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+/* Общие стили для линий */
+.line {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+  transition: all 0.4s ease;
+}
+
+/* Верхняя линия */
+.line1 {
+  top: 0px;
+}
+
+/* Средняя линия */
+.line2 {
+  top: 8px;
+}
+
+/* Нижняя линия */
+.line3 {
+  top: 16px;
+}
+
+/* Состояние активного гамбургера */
+.hamburger.active .line1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .line2 {
+  opacity: 0;
+}
+
+.hamburger.active .line3 {
+  transform: translateY(-8px) rotate(-45deg);
+}

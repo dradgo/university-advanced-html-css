@@ -1,0 +1,39 @@
+.categories {
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 100px 100px 133px 155px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    border-bottom: 1.8px solid #2F2F2F;
+}
+
+.categories__title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.categories__item {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.categories__item::first-letter {
+    text-transform: uppercase;
+}
+
+.categories__title.futuraReg {
+    font-weight: 600;
+}
+
+.categories__link.futuraLight {
+    font-weight: 400;
+}
+
+.categories__link.segoeLight {
+    color: #EFC58B;
+    font-size: 16px;
+    line-height: 21.28px;
+}

@@ -1,0 +1,18 @@
+.info-price__name, .info-price__composition {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.info-price__name {
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.info-price__composition {
+    color: #C2C2C2;
+}
+
+.info-price__price {
+    color: #EFC58B;
+    letter-spacing: 0.03em;
+}

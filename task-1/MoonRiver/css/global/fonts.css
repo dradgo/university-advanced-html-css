@@ -1,0 +1,35 @@
+/* Import font's from Google Fonts (fonts folder) */
+/* Forum */
+@font-face {
+    font-family: "Forum Regular";
+    src: url("../../fonts/Forum-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Futura PT */
+@font-face {
+    font-family: "Futura PT Book";
+    src: url("../../fonts/FuturaCyrillicBook.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Futura PT Light";
+    src: url("../../fonts/FuturaCyrillicLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Segoe UI */
+@font-face {
+    font-family: "Segoe UI Light";
+    src: url("../../fonts/SegoeUILight.ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

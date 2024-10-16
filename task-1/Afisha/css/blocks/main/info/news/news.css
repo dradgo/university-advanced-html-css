@@ -1,0 +1,27 @@
+.news > .titles {
+    margin-bottom: 60px;
+}
+
+.news__item {
+    max-width: 306px;
+    display: inline-block;
+}
+
+.news__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.news__img {
+    border-radius: 12px;
+    margin-bottom: 32px;
+    max-height: 204px;
+}
+
+.news__title {
+    display: inline-block;
+    font-family: "EBGaramond Bold", serif;
+    font-size: 24px;
+    line-height: 34px;
+
+    margin-bottom: 24px;
+}

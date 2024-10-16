@@ -1,0 +1,26 @@
+/* Import font's from Google Fonts (fonts folder) */
+/* Fira Sans */
+@font-face {
+    font-family: "Fira-Sans Regular";
+    src: url("../../fonts/FiraSans-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fira-Sans SemiBold";
+    src: url("../../fonts/FiraSans-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* CormorantGaramond */
+@font-face {
+    font-family: "EBGaramond Bold";
+    src: url("../../fonts/EBGaramond-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,64 @@
+.find-bountique {
+    display: flex;
+}
+
+.find-bountique__info {
+    max-width: 710px;
+    width: 100%;
+    background-color: #272727;
+}
+
+.find-bountique__info .container,
+.find-bountique__inner {
+    height: 100%;
+}
+
+.find-bountique__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 386px;
+    width: 100%;
+}
+
+.find-bountique__inner p {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.find-bountique__inner h2 {
+    margin-bottom: 16px;
+}
+
+.find-bountique__map {
+    overflow: hidden;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #67676794;
+    color: white;
+    font-family: "Futura PT Light";
+    font-size: 18px;
+    line-height: 23.08px;
+    border-radius: 2px;
+    padding: 10px;
+    visibility: hidden;
+    transform: translate(15%, -125%);
+    white-space: nowrap;
+}
+.location-marker:hover + .tooltip {
+    visibility: visible;
+}
+
+.find-bountique__map svg:hover {
+    fill: #fff;
+}
+
+
+.find-bountique__map img {
+    object-fit: none;
+    height: 604px;
+}

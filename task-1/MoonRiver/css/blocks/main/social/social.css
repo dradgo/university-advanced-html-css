@@ -1,0 +1,10 @@
+.social {
+    background-color: #272727;
+}
+
+.social__title {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-bottom: 80px;
+}

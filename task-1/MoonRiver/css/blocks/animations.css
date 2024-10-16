@@ -1,0 +1,101 @@
+/* если потребуется */
+/* ----- */
+body.menu-active {
+    overflow: hidden;
+}
+/* ----- */
+
+.header__inner.menu-open {
+    display: block;
+    transition-delay: 0.3s;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.header__top.menu-open {
+    margin-bottom: 40px;
+}
+
+
+.toggle-block {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-active .toggle-block {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease 0s, visibility 0.3s ease 0s;
+} 
+
+.menu-active .header__right-black-block {
+    max-width: 100%;
+    transition-delay: 0.3s;
+}
+
+.header__logo svg path:first-child {
+    fill: #272727; 
+    transition: fill 0.3s ease; 
+}
+
+.menu-active .header__logo svg path:first-child {
+    fill: #fff;
+    transition: fill 0.3s ease 0s;
+}
+
+.header__middle,
+.header__bottom {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+.header__bottom {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+#nav,
+#categories,
+#menuFooter {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#nav.active,
+#categories.active,
+#menuFooter.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#nav {
+    transition-delay: 0.1s;
+}
+
+#categories {
+    transition-delay: 0.2s;
+}
+
+#menuFooter {
+    transition-delay: 0.3s;
+}
+
+.menu-open #menuFooter.active {
+    transition-delay: 0s;
+}
+
+.menu-open #categories.active {
+    transition-delay: 0.1s;
+}
+
+.menu-open #nav.active {
+    transition-delay: 0.2s;
+}

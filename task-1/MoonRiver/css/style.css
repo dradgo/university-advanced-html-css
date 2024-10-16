@@ -1,0 +1,29 @@
+/* GLOBAL */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/bases-styles.css";
+
+@import url("blocks/wrapper.css");
+@import url("blocks/animations.css");
+@import url("blocks/phone-block.css");
+@import url("blocks/email-block.css");
+
+/* header */
+@import url("blocks/header/header.css");
+@import url("blocks/header/hamburger.css");
+@import url("blocks/header/collection.css");
+@import url("blocks/info-price.css");
+@import url("blocks/header/menu-open.css");
+@import url("blocks/header/categories.css");
+
+/* main */
+@import url("blocks/main/section/section.css");
+@import url("blocks/main/findBoutique/find-bountique.css");
+@import url("blocks/main/showcase/showcase.css");
+@import url("blocks/main/social/social.css");
+@import url("blocks/main/social/slider.css");
+@import url("blocks/main/follow/follow.css");
+
+/* footer */
+@import url("blocks/footer/footer.css");

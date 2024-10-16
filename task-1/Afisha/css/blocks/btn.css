@@ -1,0 +1,10 @@
+.btn {
+    color: #fff;
+    font-family: "Fira-Sans SemiBold", serif;
+
+    background: #05B093;
+    padding: 15px 30px 14px;
+    border-radius: 50px;
+
+    display: block;
+}

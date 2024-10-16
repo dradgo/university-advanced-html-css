@@ -1,0 +1,27 @@
+.collection {
+    max-width: 455px;
+    width: 100%;
+}
+
+.collection__title {
+    display: block;
+    margin-bottom: 50px;
+    color: #272727;
+}
+
+.collection__link-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 38px;
+}
+
+.collection__link-wrapper {
+    color: #272727;
+}
+
+.collection__line {
+    width: 130px;
+    height: 1px;
+    background-color: #272727;
+}

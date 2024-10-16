@@ -1,0 +1,32 @@
+.forumRegMainTitle {
+    font-family: "Forum Regular";
+    font-size: 64px;
+    line-height: 70.66px;
+    letter-spacing: 0.03em;
+}
+
+.forumRegSecondaryTitle {
+    font-family: "Forum Regular";
+    font-size: 48px;
+    line-height: 52.99px;
+    letter-spacing: 0.03em;
+}
+
+.futuraReg {
+    font-family: "Futura PT Book";
+    font-size: 16px;
+    line-height: 20.51px;
+}
+
+.futuraLight {
+    font-family: "Futura PT Light";
+    font-size: 18px;
+    line-height: 23.08px;
+}
+
+.segoeLight {
+    font-family: "Segoe UI Light";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 23.94px;
+}

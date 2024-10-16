@@ -1,0 +1,81 @@
+.calendar__img-wrapper {
+    position: relative;
+}
+
+.calendar__img {
+    border-radius: 12px 12px 0 0;
+    max-height: 300px;
+}
+
+.calendar__image-filter {
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background: #19191980;
+    border-radius: 12px 12px 0 0;
+    padding: 0 24px 24px 24px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.calendar__text {
+   font-size: 32px;
+   line-height: 46px;
+}
+
+.calendar__image-filter > .calendar__text {
+    color: #fff
+}
+
+.calendar__dates-wrapper {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    background: #1919190D;
+    border-radius: 0 0 12px 12px;
+}
+
+.calendar__left-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar__btns {
+    margin-top: auto;
+}
+
+.calendar__btn {
+    background: #05B093;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.calendar__grid {
+    width: 304px;
+    height: 216px;
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-template-rows: repeat(5, 40px);
+    gap: 4px;
+}
+
+.calendar__elem {
+    background: #1919194D;
+    font-family: "Fira-Sans SemiBold", serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.calendar__elem--active {
+    background: #05B093;
+}

@@ -1,0 +1,61 @@
+.follow {
+    display: flex;
+}
+
+.follow img {
+    height: 640px;
+    object-position: 0%;
+}
+
+.follow__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.follow__inner .phone-block {
+    margin-bottom: 110px;
+}
+
+.follow__inner .phone-block .phone-block__text,
+.follow__inner .email-block .email-block__text {
+    color: #272727;
+    font-size: 18px;
+    line-height: 23.08px;
+    margin-bottom: 30px;
+}
+
+.follow__inner .email-block .email-block__text {
+    color: #272727;
+}
+ 
+.follow__inner .email-block .email-block__wrapper {
+    margin-top: 30px;
+    margin-bottom: 0;
+} 
+
+.follow__inner .phone-block .phone-block__phone,
+.follow__inner .email-block .email-block__underlined > .email-block__label {
+    color: #959595;
+    font-size: 22px;
+    line-height: 28.2px;
+}
+
+.follow__inner .email-block .email-block__underlined > input {
+    border-bottom: 1.8px solid #272727;
+    color: #272727;
+}
+
+.follow__inner .email-block .email-block__underlined > input:hover,
+.follow__inner .email-block .email-block__underlined:not(.email-block__danger) > input:focus {
+    border-bottom: 2.8px solid #272727;
+}
+
+
+.follow__inner .email-block .email-block__underlined > input:focus + .email-block__label,
+.follow__inner .email-block .email-block__underlined > input:valid + .email-block__label {
+	top: -20px;
+	font-size: 0.9375rem;
+}

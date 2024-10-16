@@ -1,0 +1,24 @@
+.phone-block__text.futuraReg {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    line-height: 17.95px;
+    color: #fff;
+
+    display: block;
+    margin-bottom: 15px;
+}
+
+a.phone-block__phone {
+    display: inline-block;
+    color: #c2c2c2;
+    margin-bottom: 15px;
+}
+
+.phone-block__icons > .phone-block__link:first-child {
+    margin-right: 20px;
+}
+
+.menu-open__info > .phone-block {
+    margin-bottom: 43px;
+}

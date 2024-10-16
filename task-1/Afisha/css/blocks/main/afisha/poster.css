@@ -1,0 +1,76 @@
+.poster {
+    padding: 32px 60px;
+    background-color: #1919190D;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 62px;
+}
+
+.poster:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.poster__date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster__img {
+    height: 240px;
+    border-radius: 12px;
+}
+
+.poster__text {
+    max-width: 415px;
+}
+
+.poster__title {
+    margin-bottom: 16px;
+}
+
+.poster__description {
+    margin-bottom: 40px;
+}
+
+.poster__number-date, .poster__month, .poster__title {
+    font-family: "EBGaramond Bold", serif;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.poster__number-date {
+    font-size: 64px;
+    line-height: 90px;
+}
+
+.poster__description, .poster__option, .poster__btn {
+    font-family: "Fira-Sans Regular", serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.poster__tags {
+    display: flex;
+    column-gap: 30px;
+}
+
+.poster__tag {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.poster__tag.poster__tag--visually-hidden {
+    display: none;
+}
+
+.poster > a {
+    display: inline-block;
+    max-width: 175px;
+    width: 100%;
+}

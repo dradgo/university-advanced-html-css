@@ -1,0 +1,107 @@
+/* Reset and base styles  */
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+body {
+	color: #191919;
+	font-size: 16px;
+	line-height: 22px;
+
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+main {
+	background-color: #EDEDED;
+	padding-top: 60px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ol, ul li {
+	list-style: none;
+	counter-reset: num;
+}
+
+img {
+	vertical-align: top;
+	object-fit: cover;
+
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+	background: transparent none;
+	cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}

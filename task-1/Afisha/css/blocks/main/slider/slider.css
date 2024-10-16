@@ -1,0 +1,14 @@
+.slider {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 184px;
+}
+
+.slider__left > img {
+    border-radius: 12px;
+    height: 497px;
+}
+
+.slider__right {
+    flex: 1
+}
